@@ -1,0 +1,12 @@
+syntax = "proto3";
+package cel031.sp5.sp5;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/cel031/SP5/x/sp5/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+package cel031.sp5.timtam;
+
+import "gogoproto/gogo.proto";
+import "timtam/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/cel031/SP5/x/timtam/types";
+
+// GenesisState defines the timtam module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

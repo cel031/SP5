@@ -1,0 +1,13 @@
+syntax = "proto3";
+package cel031.sp5.sp5;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/cel031/SP5/x/sp5/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
